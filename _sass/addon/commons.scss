@@ -647,7 +647,9 @@ main {
   box-shadow: none;
   border-color: var(--input-focus-border-color) !important;
   background: center !important;
-  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  transition:
+    background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
 }
 
 .left {
@@ -754,7 +756,10 @@ $btn-mb: 0.5rem;
     margin-top: 1.25rem;
     margin-bottom: 0.5rem;
 
-    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
       -2px 2px 0 #000;
 
     a {
@@ -1178,7 +1183,9 @@ search {
   height: $back2top-size;
   border-radius: 50%;
   border: 1px solid var(--btn-backtotop-border-color);
-  transition: opacity 0.5s ease-in-out, transform 0.2s ease-out;
+  transition:
+    opacity 0.5s ease-in-out,
+    transform 0.2s ease-out;
 
   &:hover {
     transform: translate3d(0, -5px, 0);
